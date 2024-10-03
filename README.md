@@ -28,7 +28,21 @@ MAC: 7A:B4:84:AE:81:8D
 converts into
 
 uint8_t address[6]  = {0x7A, 0xB4, 0x84, 0xAE, 0x81, 0x8D};
-## Flashing the ESP32:
+
+## Wiring
+| ESP32  | Display |
+| ------------- | ------------- |
+| GND  | GND  |
+| 5V  | VCC  |
+| GPIO19  | SCL  |
+| GPIO23  | SDA  |
+| RST  | RES  |
+| GPIO2  | DC  |
+| GPIO17  | CS  |
+| Content Cell  | BLK  |
+
+
+## Flashing the ESP32
 
 Install the ESP32 Filesystem Uploader which you can find here: https://github.com/me-no-dev/arduino-esp32fs-plugin
 
