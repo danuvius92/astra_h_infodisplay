@@ -39,7 +39,7 @@ uint8_t address[6]  = {0x7A, 0xB4, 0x84, 0xAE, 0x81, 0x8D};
 | RST  | RES  |
 | GPIO2  | DC  |
 | GPIO17  | CS  |
-| Content Cell  | BLK  |
+| not connected  | BLK  |
 
 
 ## Flashing the ESP32
